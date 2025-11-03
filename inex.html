@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Test Company - Маркетинг для игр</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="reset.css" />
+  </head>
+  <body>
+    <header class="header">
+      <nav class="nav">
+        <a href="#main" class="nav__link">главная</a>
+        <a href="#about" class="nav__link">о нас</a>
+        <a href="#packages" class="nav__link">пакеты</a>
+        <a href="#contacts" class="nav__link">контакты</a>
+      </nav>
+    </header>
+
+    <main>
+      <section id="main" class="hero">
+        <div class="hero__content">
+          <h1 class="hero__title">Test Company</h1>
+          <p class="hero__slogan">
+            Когда стратегия встречает творчество — рождается вирусный успех!
+          </p>
+          <div class="hero__actions">
+            <button
+              class="btn btn--primary"
+              onclick="scrollToSection('contacts')"
+            >
+              Связаться
+            </button>
+            <button
+              class="btn btn--secondary"
+              onclick="scrollToSection('about')"
+            >
+              Подробнее
+            </button>
+          </div>
+          <div class="hero__scroll">
+            <span class="hero__scroll-text">Листай вниз</span>
+            <img src="img/triangle.svg" alt="" class="hero__scroll-icon" />
+          </div>
+        </div>
+        <div class="section-divider"></div>
+      </section>
+
+      <section id="about" class="about">
+        <div class="section-container">
+          <h2 class="section-title scroll-animate">Кто мы такие?</h2>
+          <p class="about__description scroll-animate">
+            Мы — команда экспертов по маркетингу, специализирующаяся на
+            продвижении игр в TikTok и YouTube. Мы помогаем инди-разработчикам
+            находить свою аудиторию и создавать ажиотаж вокруг их проектов. Наша
+            цель — не просто реклама, а создание вовлекающего контента, который
+            органично впишется в цифровую среду и по-настоящему заинтересует
+            игроков. Доверьте нам продвижение вашей игры, и мы сделаем всё для
+            её успеха.
+          </p>
+
+          <h3 class="section-subtitle scroll-animate">
+            Почему стоит выбрать нас?
+          </h3>
+
+          <div class="advantages">
+            <article class="advantage-card scroll-animate">
+              <h4 class="advantage-card__title">Долгосрок</h4>
+              <p class="advantage-card__text">
+                Наше предложение — это инвестиция в виральный рост.
+              </p>
+            </article>
+
+            <article class="advantage-card scroll-animate">
+              <h4 class="advantage-card__title">Выгода</h4>
+              <p class="advantage-card__text">
+                При том же бюджете в 10 000р мы способны генерировать от 10 000
+                до 1 000 000 уникальных визитов на страницу вашей игры.
+              </p>
+            </article>
+
+            <article class="advantage-card scroll-animate">
+              <h4 class="advantage-card__title">Анализ</h4>
+              <p class="advantage-card__text">
+                В основе нашего подхода лежит не просто размещение, а глубокий
+                анализ.
+              </p>
+            </article>
+
+            <article class="advantage-card scroll-animate">
+              <h4 class="advantage-card__title">Профессиональный подход</h4>
+              <p class="advantage-card__text">
+                Наша команда включает профессиональных аналитиков, которые
+                ежедневно изучают мемы, тренды и поведение аудитории в TikTok и
+                YouTube. Мы создаём контент, который люди хотят смотреть и
+                делиться им.
+              </p>
+            </article>
+          </div>
+        </div>
+        <div class="section-divider"></div>
+      </section>
+
+      <section id="packages" class="packages">
+        <div class="section-container">
+          <h2 class="section-title scroll-animate">Пакеты</h2>
+          <p class="packages__guarantee scroll-animate">
+            Мы настолько уверены в качестве нашего контента, что гарантируем
+            результат. Если просмотров будет меньше — мы доделаем видео
+            бесплатно!
+          </p>
+
+          <div class="packages-grid">
+            <article class="package-card scroll-animate">
+              <h3 class="package-card__name">Базовый</h3>
+              <ul class="package-card__features">
+                <li>Профессиональный сценарий и монтаж</li>
+                <li>Полностью готовый к публикации ролик</li>
+                <li>Ориентация на вертикальный формат</li>
+                <li>Анализ трендов для вашего проекта</li>
+              </ul>
+              <p class="package-card__price">1 000 ₽</p>
+            </article>
+
+            <article class="package-card scroll-animate">
+              <h3 class="package-card__name">Стабильный</h3>
+              <ul class="package-card__features">
+                <li>10 готовых видео для TikTok/Youtube Shorts</li>
+                <li>Единая стратегия и разнообразие форматов</li>
+                <li>Гарантированный минимум: 30 000 суммарных просмотров*</li>
+                <li>Анализ трендов для вашего проекта</li>
+              </ul>
+              <p class="package-card__price">10 000 ₽</p>
+            </article>
+
+            <article class="package-card scroll-animate">
+              <h3 class="package-card__name">Гарант</h3>
+              <ul class="package-card__features">
+                <li>20 готовых видео для TikTok/Youtube Shorts</li>
+                <li>Единая стратегия и разнообразие форматов</li>
+                <li>Гарантированный минимум: 70 000 суммарных просмотров*</li>
+                <li>Анализ трендов для вашего проекта</li>
+              </ul>
+              <p class="package-card__price">20 000 ₽</p>
+            </article>
+          </div>
+        </div>
+        <div class="section-divider"></div>
+      </section>
+
+      <section id="contacts" class="contacts">
+        <div class="contacts__container">
+          <div class="contacts__background">
+            <img src="img/item.png" alt="" class="contacts__image" />
+          </div>
+          <div class="contacts__content">
+            <h2 class="contacts__title scroll-animate">
+              Объединяем креатив и стратегию
+            </h2>
+            <p class="contacts__subtitle scroll-animate">Свяжитесь с нами</p>
+            <div class="contacts__discord scroll-animate">
+              <span class="discord__handle"># Discord: XxX_niggaKiller</span>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <script>
+      function scrollToSection(sectionId) {
+        const element = document.getElementById(sectionId);
+        if (element) {
+          element.scrollIntoView({
+            behavior: "smooth",
+            block: "start",
+          });
+        }
+      }
+
+      document.addEventListener("DOMContentLoaded", function () {
+        const navLinks = document.querySelectorAll(".nav__link");
+
+        navLinks.forEach((link) => {
+          link.addEventListener("click", function (e) {
+            e.preventDefault();
+            const targetId = this.getAttribute("href").substring(1);
+            scrollToSection(targetId);
+          });
+        });
+
+        const observerOptions = {
+          threshold: 0.1,
+          rootMargin: "0px 0px -50px 0px",
+        };
+
+        const observer = new IntersectionObserver(function (entries) {
+          entries.forEach((entry) => {
+            if (entry.isIntersecting) {
+              entry.target.classList.add("animated");
+            }
+          });
+        }, observerOptions);
+
+        const animatedElements = document.querySelectorAll(".scroll-animate");
+        animatedElements.forEach((el) => {
+          observer.observe(el);
+        });
+      });
+    </script>
+  </body>
+</html>
